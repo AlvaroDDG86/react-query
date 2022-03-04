@@ -23,7 +23,7 @@ const Joke = () => {
   return (
     <div>
       <p>{data.value}</p>
-      <button onClick={getAnotherJokeHandler}>Get another</button>
+      <button onClick={getAnotherJokeHandler}>Get Joke</button>
     </div>
   );
 };
