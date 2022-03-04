@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
 body, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Indie Flower', cursive;
 }
 .App {
   background-color: lightgray;
@@ -17,11 +19,22 @@ body, body {
 }
 .App-header {
   position: absolute;
+  text-transform: uppercase;
   height: 4rem;
   top: 0;
   width: 100vw;
   background: #000;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: purple;
+  text-shadow: 1px 1px 0px transparent, 2px 2px 0px lightcoral;
 }
 .App-containter {
   margin: 0 1rem;
@@ -34,6 +47,7 @@ body, body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  font-family: 'Pacifico', cursive;
 }
 button {
   outline: none;
