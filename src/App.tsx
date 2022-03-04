@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Joke from './components/Joke'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,8 +8,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        React query
+        <h1>React query</h1>
       </header>
+      <div className="App-containter">
+        <Joke />
+      </div>
     </div>
   )
 }
